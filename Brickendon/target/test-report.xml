@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="91" time="0.311562">
+<testcase classname="Able to accept and verify command line arguments" name="Valid date range for command line arguments" time="0.143198">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+When I pass a valid date range as command line arguments....................passed
+Then the analyser response is "Success".....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to accept and verify command line arguments" name="Different valid date ranges" time="0.001322">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+When I pass 01/01/2017 and 01/01/2017 as command line arguments.............passed
+Then the analyser response is "Success".....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to accept and verify command line arguments" name="Different valid date ranges" time="0.00215">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+When I pass 01/01/2017 and 31/12/2017 as command line arguments.............passed
+Then the analyser response is "Success".....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to accept and verify command line arguments" name="Different valid date ranges" time="0.000675">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+When I pass 31/12/2017 and 01/01/2018 as command line arguments.............passed
+Then the analyser response is "Success".....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to accept and verify command line arguments" name="Different valid date ranges" time="0.001042">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+When I pass 31/07/2017 and 30/05/2099 as command line arguments.............passed
+Then the analyser response is "Success".....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to accept and verify command line arguments" name="Different valid date ranges" time="0.001473">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+When I pass 30/11/2010 and 02/10/2100 as command line arguments.............passed
+Then the analyser response is "Success".....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to accept and verify command line arguments" name="Missing both command line arguments" time="0.000127">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+When the command line is empty..............................................passed
+Then the analyser response is "Failure-Missing date range arguments: FromDate ToDate".passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to accept and verify command line arguments" name="Missing a command line argument" time="0.000214">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+When the command line is a single value.....................................passed
+Then the analyser response is "Failure-Missing date range arguments: FromDate ToDate".passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to accept and verify command line arguments" name="Invalid date range for command line arguments" time="0.000275">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+When I pass an invalid date range as command line arguments.................passed
+Then the analyser response is "Failure-ToDate is before FromDate"...........passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to accept and verify command line arguments" name="Different invalid date ranges" time="0.000315">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+When I pass 06/07/2017 and 07/06/2017 as command line arguments.............passed
+Then the analyser response is "Failure-ToDate is before FromDate"...........passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to accept and verify command line arguments" name="Different invalid date ranges" time="0.000641">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+When I pass 01/01/2018 and 01/01/2017 as command line arguments.............passed
+Then the analyser response is "Failure-ToDate is before FromDate"...........passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to accept and verify command line arguments" name="Different invalid date ranges" time="0.000447">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+When I pass 29/02/2016 and 28/02/2016 as command line arguments.............passed
+Then the analyser response is "Failure-ToDate is before FromDate"...........passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to accept and verify command line arguments" name="Different invalid date formats" time="0.000323">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+When I pass 01/02/17 and 07/06/2017 as command line arguments...............passed
+Then the analyser response is "Failure-FromDate not in format dd/mm/yyyy"...passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to accept and verify command line arguments" name="Different invalid date formats" time="0.000426">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+When I pass 01/01/2017 and 01/01/18 as command line arguments...............passed
+Then the analyser response is "Failure-ToDate not in format dd/mm/yyyy".....passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to accept and verify command line arguments" name="Different invalid date formats" time="0.003226">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+When I pass 20 02 2017 and 01 03 2017 as command line arguments.............passed
+Then the analyser response is "Failure-FromDate not in format dd/mm/yyyy"...passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to accept and verify command line arguments" name="Different invalid date formats" time="0.001821">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+When I pass 29-02-2017 and 01-03-2017 as command line arguments.............passed
+Then the analyser response is "Failure-FromDate not in format dd/mm/yyyy"...passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to accept and verify command line arguments" name="Different invalid date formats" time="0.000467">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+When I pass 1 Mar 2017 and 01/03/2017 as command line arguments.............passed
+Then the analyser response is "Failure-FromDate not in format dd/mm/yyyy"...passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to accept and verify command line arguments" name="Different invalid date formats" time="0.000762">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+When I pass 31/02/2017 and 01/03/2017 as command line arguments.............passed
+Then the analyser response is "Failure-FromDate not in format dd/mm/yyyy"...passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to accept and verify command line arguments" name="Different invalid date formats" time="0.000371">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+When I pass 31/09/2017 and 01/10/2017 as command line arguments.............passed
+Then the analyser response is "Failure-FromDate not in format dd/mm/yyyy"...passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to accept and verify command line arguments" name="Different invalid date formats" time="0.001041">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+When I pass 11/03/2017 and 04/13/2017 as command line arguments.............passed
+Then the analyser response is "Failure-ToDate not in format dd/mm/yyyy".....passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to accept and verify command line arguments" name="Different invalid date formats" time="0.000538">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+When I pass 28/02/2017 and 29/02/2017 as command line arguments.............passed
+Then the analyser response is "Failure-ToDate not in format dd/mm/yyyy".....passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process larger trade and instrument files e.g. FTSE100" name="traded volume depends on both date range and trade file contents" time="0.004829">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the FTSE100 data files............................................passed
+When I pass 01/01/2017 and 30/11/2017 as command line arguments.............passed
+Then the traded volume for MKS is 100.......................................passed
+And the analyser response is "Success"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process larger trade and instrument files e.g. FTSE100" name="traded volume depends on both date range and trade file contents" time="0.006042">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the FTSE100 data files............................................passed
+When I pass 01/01/2017 and 01/12/2017 as command line arguments.............passed
+Then the traded volume for MKS is 300.......................................passed
+And the analyser response is "Success"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process larger trade and instrument files e.g. FTSE100" name="traded volume depends on both date range and trade file contents" time="0.004522">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the FTSE100 data files............................................passed
+When I pass 01/12/2017 and 15/12/2017 as command line arguments.............passed
+Then the traded volume for MKS is 200.......................................passed
+And the analyser response is "Success"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process larger trade and instrument files e.g. FTSE100" name="traded volume depends on both date range and trade file contents" time="0.005456">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the FTSE100 data files............................................passed
+When I pass 01/01/2017 and 31/12/2017 as command line arguments.............passed
+Then the traded volume for MKS is 1500......................................passed
+And the analyser response is "Success"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process larger trade and instrument files e.g. FTSE100" name="traded volume depends on both date range and trade file contents" time="0.003945">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the FTSE100 data files............................................passed
+When I pass 01/01/2018 and 31/12/2018 as command line arguments.............passed
+Then the traded volume for MKS is 0.........................................passed
+And the analyser response is "Success"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process larger trade and instrument files e.g. FTSE100" name="traded volume depends on both date range and trade file contents" time="0.004793">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the FTSE100 data files............................................passed
+When I pass 01/01/2017 and 31/12/2017 as command line arguments.............passed
+Then the traded volume for OML is 5.........................................passed
+And the analyser response is "Success"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process larger trade and instrument files e.g. FTSE100" name="traded volume depends on both date range and trade file contents" time="0.003818">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the FTSE100 data files............................................passed
+When I pass 16/12/2017 and 31/12/2017 as command line arguments.............passed
+Then the traded volume for OML is 0.........................................passed
+And the analyser response is "Success"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process larger trade and instrument files e.g. FTSE100" name="traded volume depends on both date range and trade file contents" time="0.002424">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the FTSE100 data files............................................passed
+When I pass 01/12/2017 and 01/12/2017 as command line arguments.............passed
+Then the traded volume for BT.A is 2000.....................................passed
+And the analyser response is "Success"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process larger trade and instrument files e.g. FTSE100" name="traded volume depends on both date range and trade file contents" time="0.006837">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the FTSE100 data files............................................passed
+When I pass 01/12/2017 and 31/01/2018 as command line arguments.............passed
+Then the traded volume for BT.A is 2200.....................................passed
+And the analyser response is "Success"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process larger trade and instrument files e.g. FTSE100" name="traded volume depends on both date range and trade file contents" time="0.002943">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the FTSE100 data files............................................passed
+When I pass 01/12/2017 and 31/01/2018 as command line arguments.............passed
+Then the traded volume for JMAT is 400......................................passed
+And the analyser response is "Success"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process larger trade and instrument files e.g. FTSE100" name="traded volume depends on both date range and trade file contents" time="0.006308">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the FTSE100 data files............................................passed
+When I pass 01/12/2017 and 31/01/2018 as command line arguments.............passed
+Then the traded volume for VOD is 0.........................................passed
+And the analyser response is "Success"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process larger trade and instrument files e.g. FTSE100" name="able to report which instruments are listed in instrument file" time="0.00296">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the FTSE100 data files............................................passed
+When I pass a valid date range as command line arguments....................passed
+Then I can verify whether ABF was Found in the instrument file..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process larger trade and instrument files e.g. FTSE100" name="able to report which instruments are listed in instrument file" time="0.001937">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the FTSE100 data files............................................passed
+When I pass a valid date range as command line arguments....................passed
+Then I can verify whether NG. was Found in the instrument file..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process larger trade and instrument files e.g. FTSE100" name="able to report which instruments are listed in instrument file" time="0.002356">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the FTSE100 data files............................................passed
+When I pass a valid date range as command line arguments....................passed
+Then I can verify whether NG.X was Missing in the instrument file...........passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process larger trade and instrument files e.g. FTSE100" name="able to report which instruments are listed in instrument file" time="0.001416">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the FTSE100 data files............................................passed
+When I pass a valid date range as command line arguments....................passed
+Then I can verify whether BT.A was Found in the instrument file.............passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process larger trade and instrument files e.g. FTSE100" name="able to report which instruments are listed in instrument file" time="0.002016">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the FTSE100 data files............................................passed
+When I pass a valid date range as command line arguments....................passed
+Then I can verify whether RDSA was Found in the instrument file.............passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process larger trade and instrument files e.g. FTSE100" name="able to report which instruments are listed in instrument file" time="0.001661">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the FTSE100 data files............................................passed
+When I pass a valid date range as command line arguments....................passed
+Then I can verify whether JE was Found in the instrument file...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process larger trade and instrument files e.g. FTSE100" name="able to report which instruments are listed in instrument file" time="0.002322">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the FTSE100 data files............................................passed
+When I pass a valid date range as command line arguments....................passed
+Then I can verify whether III was Found in the instrument file..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process larger trade and instrument files e.g. FTSE100" name="able to report which instruments are listed in instrument file" time="0.001309">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the FTSE100 data files............................................passed
+When I pass a valid date range as command line arguments....................passed
+Then I can verify whether IN1 was Missing in the instrument file............passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process larger trade and instrument files e.g. FTSE100" name="able to report which instruments are listed in instrument file" time="0.001276">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the FTSE100 data files............................................passed
+When I pass a valid date range as command line arguments....................passed
+Then I can verify whether IN2 was Missing in the instrument file............passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process larger trade and instrument files e.g. FTSE100" name="able to report which instruments are listed in instrument file" time="0.001241">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the FTSE100 data files............................................passed
+When I pass a valid date range as command line arguments....................passed
+Then I can verify whether IN3 was Missing in the instrument file............passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process larger trade and instrument files e.g. FTSE100" name="lists of traded and not traded instrument are complete" time="0.00306">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the FTSE100 data files............................................passed
+When I pass 01/01/2017 and 29/11/2017 as command line arguments.............passed
+Then the list of instruments traded has 0 rows..............................passed
+And the list of instruments not traded has 100 rows.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process larger trade and instrument files e.g. FTSE100" name="lists of traded and not traded instrument are complete" time="0.003582">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the FTSE100 data files............................................passed
+When I pass 01/01/2017 and 30/11/2017 as command line arguments.............passed
+Then the list of instruments traded has 1 rows..............................passed
+And the list of instruments not traded has 99 rows..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process larger trade and instrument files e.g. FTSE100" name="lists of traded and not traded instrument are complete" time="0.001343">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the FTSE100 data files............................................passed
+When I pass 01/01/2017 and 01/12/2017 as command line arguments.............passed
+Then the list of instruments traded has 5 rows..............................passed
+And the list of instruments not traded has 95 rows..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process larger trade and instrument files e.g. FTSE100" name="lists of traded and not traded instrument are complete" time="0.002769">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the FTSE100 data files............................................passed
+When I pass 01/01/2017 and 15/12/2017 as command line arguments.............passed
+Then the list of instruments traded has 6 rows..............................passed
+And the list of instruments not traded has 94 rows..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process larger trade and instrument files e.g. FTSE100" name="lists of traded and not traded instrument are complete" time="0.001504">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the FTSE100 data files............................................passed
+When I pass 01/01/2017 and 31/12/2017 as command line arguments.............passed
+Then the list of instruments traded has 7 rows..............................passed
+And the list of instruments not traded has 93 rows..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process larger trade and instrument files e.g. FTSE100" name="lists of traded and not traded instrument are complete" time="0.002256">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the FTSE100 data files............................................passed
+When I pass 30/12/2017 and 01/01/2018 as command line arguments.............passed
+Then the list of instruments traded has 1 rows..............................passed
+And the list of instruments not traded has 99 rows..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process larger trade and instrument files e.g. FTSE100" name="lists of traded and not traded instrument are complete" time="0.001895">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the FTSE100 data files............................................passed
+When I pass 01/01/2018 and 04/01/2018 as command line arguments.............passed
+Then the list of instruments traded has 2 rows..............................passed
+And the list of instruments not traded has 98 rows..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process larger trade and instrument files e.g. FTSE100" name="traded volume defaults to 0 even for invalid dates values and instruments" time="0.000609">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the FTSE100 data files............................................passed
+When I pass 30/11/2017 and 31/11/2018 as command line arguments.............passed
+Then the traded volume for ADM is 0.........................................passed
+And the analyser response is "Failure-ToDate not in format dd/mm/yyyy"......passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process larger trade and instrument files e.g. FTSE100" name="traded volume defaults to 0 even for invalid dates values and instruments" time="0.001549">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the FTSE100 data files............................................passed
+When I pass 01/01/2017 and 31/12/2017 as command line arguments.............passed
+Then the traded volume for IN1 is 0.........................................passed
+And the analyser response is "Success"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process the basic trade and instrument files supplied" name="traded volume depends on both date range and trade file contents" time="0.000963">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the data files supplied...........................................passed
+When I pass 01/01/2017 and 31/12/2017 as command line arguments.............passed
+Then the traded volume for IN1 is 100.......................................passed
+And the analyser response is "Success"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process the basic trade and instrument files supplied" name="traded volume depends on both date range and trade file contents" time="0.001086">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the data files supplied...........................................passed
+When I pass 30/11/2017 and 30/11/2017 as command line arguments.............passed
+Then the traded volume for IN1 is 100.......................................passed
+And the analyser response is "Success"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process the basic trade and instrument files supplied" name="traded volume depends on both date range and trade file contents" time="0.001928">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the data files supplied...........................................passed
+When I pass 30/11/2017 and 31/12/2017 as command line arguments.............passed
+Then the traded volume for IN1 is 100.......................................passed
+And the analyser response is "Success"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process the basic trade and instrument files supplied" name="traded volume depends on both date range and trade file contents" time="0.001074">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the data files supplied...........................................passed
+When I pass 01/01/2017 and 30/11/2017 as command line arguments.............passed
+Then the traded volume for IN1 is 100.......................................passed
+And the analyser response is "Success"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process the basic trade and instrument files supplied" name="traded volume depends on both date range and trade file contents" time="0.001426">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the data files supplied...........................................passed
+When I pass 30/11/2017 and 30/11/2017 as command line arguments.............passed
+Then the traded volume for IN1 is 100.......................................passed
+And the analyser response is "Success"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process the basic trade and instrument files supplied" name="traded volume depends on both date range and trade file contents" time="0.000981">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the data files supplied...........................................passed
+When I pass 01/01/2017 and 29/11/2017 as command line arguments.............passed
+Then the traded volume for IN1 is 0.........................................passed
+And the analyser response is "Success"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process the basic trade and instrument files supplied" name="traded volume depends on both date range and trade file contents" time="0.001528">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the data files supplied...........................................passed
+When I pass 01/12/2017 and 01/01/2018 as command line arguments.............passed
+Then the traded volume for IN1 is 0.........................................passed
+And the analyser response is "Success"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process the basic trade and instrument files supplied" name="traded volume depends on both date range and trade file contents" time="0.002632">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the data files supplied...........................................passed
+When I pass 01/01/2017 and 31/12/2017 as command line arguments.............passed
+Then the traded volume for IN2 is 0.........................................passed
+And the analyser response is "Success"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process the basic trade and instrument files supplied" name="traded volume depends on both date range and trade file contents" time="0.002246">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the data files supplied...........................................passed
+When I pass 30/11/2017 and 31/12/2017 as command line arguments.............passed
+Then the traded volume for IN3 is 0.........................................passed
+And the analyser response is "Success"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process the basic trade and instrument files supplied" name="able to report which instruments are listed in instrument file" time="0.001097">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the data files supplied...........................................passed
+When I pass a valid date range as command line arguments....................passed
+Then I can verify whether IN1 was Found in the instrument file..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process the basic trade and instrument files supplied" name="able to report which instruments are listed in instrument file" time="0.001928">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the data files supplied...........................................passed
+When I pass a valid date range as command line arguments....................passed
+Then I can verify whether IN2 was Found in the instrument file..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process the basic trade and instrument files supplied" name="able to report which instruments are listed in instrument file" time="0.000791">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the data files supplied...........................................passed
+When I pass a valid date range as command line arguments....................passed
+Then I can verify whether IN3 was Found in the instrument file..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process the basic trade and instrument files supplied" name="able to report which instruments are listed in instrument file" time="0.002021">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the data files supplied...........................................passed
+When I pass a valid date range as command line arguments....................passed
+Then I can verify whether IN4 was Missing in the instrument file............passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process the basic trade and instrument files supplied" name="able to report which instruments are listed in instrument file" time="0.001662">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the data files supplied...........................................passed
+When I pass a valid date range as command line arguments....................passed
+Then I can verify whether XXX was Missing in the instrument file............passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process the basic trade and instrument files supplied" name="able to report which instruments are listed in instrument file" time="0.001632">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the data files supplied...........................................passed
+When I pass a valid date range as command line arguments....................passed
+Then I can verify whether Xyz was Missing in the instrument file............passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process the basic trade and instrument files supplied" name="able to report which instruments are listed in instrument file" time="0.001367">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the data files supplied...........................................passed
+When I pass a valid date range as command line arguments....................passed
+Then I can verify whether  was Missing in the instrument file...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process the basic trade and instrument files supplied" name="able to report which instruments are listed in instrument file" time="0.001028">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the data files supplied...........................................passed
+When I pass a valid date range as command line arguments....................passed
+Then I can verify whether in1 was Missing in the instrument file............passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process the basic trade and instrument files supplied" name="lists of traded and not traded instrument are complete" time="0.001316">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the data files supplied...........................................passed
+When I pass 01/01/2017 and 31/12/2017 as command line arguments.............passed
+Then the list of instruments traded has 1 rows..............................passed
+And the list of instruments not traded has 2 rows...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process the basic trade and instrument files supplied" name="lists of traded and not traded instrument are complete" time="0.001074">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the data files supplied...........................................passed
+When I pass 30/11/2017 and 30/11/2017 as command line arguments.............passed
+Then the list of instruments traded has 1 rows..............................passed
+And the list of instruments not traded has 2 rows...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process the basic trade and instrument files supplied" name="lists of traded and not traded instrument are complete" time="0.001483">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the data files supplied...........................................passed
+When I pass 30/11/2017 and 31/12/2017 as command line arguments.............passed
+Then the list of instruments traded has 1 rows..............................passed
+And the list of instruments not traded has 2 rows...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process the basic trade and instrument files supplied" name="lists of traded and not traded instrument are complete" time="0.001195">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the data files supplied...........................................passed
+When I pass 01/01/2017 and 30/11/2017 as command line arguments.............passed
+Then the list of instruments traded has 1 rows..............................passed
+And the list of instruments not traded has 2 rows...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process the basic trade and instrument files supplied" name="lists of traded and not traded instrument are complete" time="0.001724">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the data files supplied...........................................passed
+When I pass 01/01/2017 and 29/11/2017 as command line arguments.............passed
+Then the list of instruments traded has 0 rows..............................passed
+And the list of instruments not traded has 3 rows...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process the basic trade and instrument files supplied" name="lists of traded and not traded instrument are complete" time="0.002971">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the data files supplied...........................................passed
+When I pass 01/12/2017 and 01/01/2018 as command line arguments.............passed
+Then the list of instruments traded has 0 rows..............................passed
+And the list of instruments not traded has 3 rows...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process the basic trade and instrument files supplied" name="traded volume defaults to 0 even for invalid dates values and instruments" time="0.00142">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the data files supplied...........................................passed
+When I pass 30/11/2017 and 31/11/2018 as command line arguments.............passed
+Then the traded volume for In1 is 0.........................................passed
+And the analyser response is "Failure-ToDate not in format dd/mm/yyyy"......passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process the basic trade and instrument files supplied" name="traded volume defaults to 0 even for invalid dates values and instruments" time="0.001011">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the data files supplied...........................................passed
+When I pass 01/01/2017 and 31/12/2017 as command line arguments.............passed
+Then the traded volume for XXXXX is 0.......................................passed
+And the analyser response is "Success"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process trade files with multiple trades" name="traded volume depends on both date range and trade file contents" time="0.001692">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the "trades-multiple" trade file..................................passed
+When I pass 01/01/2017 and 01/01/2018 as command line arguments.............passed
+Then the traded volume for IN1 is 500.......................................passed
+And the analyser response is "Success"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process trade files with multiple trades" name="traded volume depends on both date range and trade file contents" time="0.001797">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the "trades-multiple" trade file..................................passed
+When I pass 01/01/2017 and 01/01/2018 as command line arguments.............passed
+Then the traded volume for IN2 is 400.......................................passed
+And the analyser response is "Success"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process trade files with multiple trades" name="traded volume depends on both date range and trade file contents" time="0.002515">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the "trades-multiple" trade file..................................passed
+When I pass 01/01/2017 and 01/01/2018 as command line arguments.............passed
+Then the traded volume for IN3 is 0.........................................passed
+And the analyser response is "Success"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process trade files with multiple trades" name="traded volume depends on both date range and trade file contents" time="0.001785">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the "trades-multiple" trade file..................................passed
+When I pass 01/11/2017 and 30/11/2017 as command line arguments.............passed
+Then the traded volume for IN1 is 100.......................................passed
+And the analyser response is "Success"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process trade files with multiple trades" name="traded volume depends on both date range and trade file contents" time="0.001148">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the "trades-multiple" trade file..................................passed
+When I pass 01/11/2017 and 01/12/2017 as command line arguments.............passed
+Then the traded volume for IN1 is 200.......................................passed
+And the analyser response is "Success"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process trade files with multiple trades" name="traded volume depends on both date range and trade file contents" time="0.001718">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the "trades-multiple" trade file..................................passed
+When I pass 30/11/2017 and 02/12/2017 as command line arguments.............passed
+Then the traded volume for IN1 is 200.......................................passed
+And the analyser response is "Success"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process trade files with multiple trades" name="traded volume depends on both date range and trade file contents" time="0.000971">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the "trades-multiple" trade file..................................passed
+When I pass 30/11/2017 and 03/12/2017 as command line arguments.............passed
+Then the traded volume for IN1 is 400.......................................passed
+And the analyser response is "Success"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process trade files with multiple trades" name="traded volume depends on both date range and trade file contents" time="0.000838">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the "trades-multiple" trade file..................................passed
+When I pass 30/11/2017 and 31/01/2018 as command line arguments.............passed
+Then the traded volume for IN1 is 500.......................................passed
+And the analyser response is "Success"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process trade files with multiple trades" name="traded volume depends on both date range and trade file contents" time="0.001231">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the "trades-multiple" trade file..................................passed
+When I pass 01/01/2017 and 02/12/2017 as command line arguments.............passed
+Then the traded volume for IN2 is 300.......................................passed
+And the analyser response is "Success"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process trade files with multiple trades" name="traded volume depends on both date range and trade file contents" time="0.001375">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the "trades-multiple" trade file..................................passed
+When I pass 02/12/2017 and 02/12/2017 as command line arguments.............passed
+Then the traded volume for IN2 is 200.......................................passed
+And the analyser response is "Success"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process trade files with multiple trades" name="traded volume depends on both date range and trade file contents" time="0.000764">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the "trades-multiple" trade file..................................passed
+When I pass 02/12/2017 and 03/12/2017 as command line arguments.............passed
+Then the traded volume for IN2 is 300.......................................passed
+And the analyser response is "Success"......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process trade files with multiple trades" name="lists of traded and not traded instrument are complete" time="0.002043">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the "trades-multiple" trade file..................................passed
+When I pass 01/10/2017 and 31/10/2017 as command line arguments.............passed
+Then the list of instruments traded has 0 rows..............................passed
+And the list of instruments not traded has 3 rows...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process trade files with multiple trades" name="lists of traded and not traded instrument are complete" time="0.001611">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the "trades-multiple" trade file..................................passed
+When I pass 01/11/2017 and 30/11/2017 as command line arguments.............passed
+Then the list of instruments traded has 2 rows..............................passed
+And the list of instruments not traded has 1 rows...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process trade files with multiple trades" name="lists of traded and not traded instrument are complete" time="0.002359">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the "trades-multiple" trade file..................................passed
+When I pass 01/12/2017 and 31/12/2017 as command line arguments.............passed
+Then the list of instruments traded has 2 rows..............................passed
+And the list of instruments not traded has 1 rows...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Able to read and process trade files with multiple trades" name="lists of traded and not traded instrument are complete" time="0.002299">
+<system-out><![CDATA[Given the trade analyser....................................................passed
+And using the "trades-multiple" trade file..................................passed
+When I pass 01/01/2018 and 31/01/2018 as command line arguments.............passed
+Then the list of instruments traded has 1 rows..............................passed
+And the list of instruments not traded has 2 rows...........................passed
+]]></system-out>
+</testcase>
+</testsuite>

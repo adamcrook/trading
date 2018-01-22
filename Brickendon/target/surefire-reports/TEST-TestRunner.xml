@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="486" failures="0" name="TestRunner" time="0.031" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\bin"/>
+    <property name="java.vm.version" value="25.151-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Adam\Brickendon"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Adam\Brickendon"/>
+    <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Adam\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="c:\Program Files\apache-maven-3.5.2\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\Adam\AppData\Local\Microsoft\WindowsApps;c:\Program Files\apache-maven-3.5.2\bin;;."/>
+    <property name="maven.conf" value="c:\Program Files\apache-maven-3.5.2\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="c:\Program Files\apache-maven-3.5.2\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Adam"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Adam"/>
+    <property name="java.class.path" value="c:\Program Files\apache-maven-3.5.2\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_151\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_151"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_151\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_151\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_151\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="c:\Program Files\apache-maven-3.5.2\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Scenario: Valid date range for command line arguments" name="Given the trade analyser" time="0"/>
+  <testcase classname="Scenario: Valid date range for command line arguments" name="When I pass a valid date range as command line arguments" time="0"/>
+  <testcase classname="Scenario: Valid date range for command line arguments" name="Then the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="Scenario: Valid date range for command line arguments" name="Scenario: Valid date range for command line arguments" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/01/2017 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/01/2017 | Success |" name="When I pass 01/01/2017 and 01/01/2017 as command line arguments" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/01/2017 | Success |" name="Then the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/01/2017 | Success |" name="| 01/01/2017 | 01/01/2017 | Success |" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | Success |" name="When I pass 01/01/2017 and 31/12/2017 as command line arguments" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | Success |" name="Then the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | Success |" name="| 01/01/2017 | 31/12/2017 | Success |" time="0"/>
+  <testcase classname="| 31/12/2017 | 01/01/2018 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 31/12/2017 | 01/01/2018 | Success |" name="When I pass 31/12/2017 and 01/01/2018 as command line arguments" time="0"/>
+  <testcase classname="| 31/12/2017 | 01/01/2018 | Success |" name="Then the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 31/12/2017 | 01/01/2018 | Success |" name="| 31/12/2017 | 01/01/2018 | Success |" time="0"/>
+  <testcase classname="| 31/07/2017 | 30/05/2099 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 31/07/2017 | 30/05/2099 | Success |" name="When I pass 31/07/2017 and 30/05/2099 as command line arguments" time="0"/>
+  <testcase classname="| 31/07/2017 | 30/05/2099 | Success |" name="Then the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 31/07/2017 | 30/05/2099 | Success |" name="| 31/07/2017 | 30/05/2099 | Success |" time="0"/>
+  <testcase classname="| 30/11/2010 | 02/10/2100 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 30/11/2010 | 02/10/2100 | Success |" name="When I pass 30/11/2010 and 02/10/2100 as command line arguments" time="0"/>
+  <testcase classname="| 30/11/2010 | 02/10/2100 | Success |" name="Then the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 30/11/2010 | 02/10/2100 | Success |" name="| 30/11/2010 | 02/10/2100 | Success |" time="0"/>
+  <testcase classname="Scenario: Missing both command line arguments" name="Given the trade analyser" time="0"/>
+  <testcase classname="Scenario: Missing both command line arguments" name="When the command line is empty" time="0"/>
+  <testcase classname="Scenario: Missing both command line arguments" name="Then the analyser response is &quot;Failure-Missing date range arguments: FromDate ToDate&quot;" time="0"/>
+  <testcase classname="Scenario: Missing both command line arguments" name="Scenario: Missing both command line arguments" time="0"/>
+  <testcase classname="Scenario: Missing a command line argument" name="Given the trade analyser" time="0"/>
+  <testcase classname="Scenario: Missing a command line argument" name="When the command line is a single value" time="0"/>
+  <testcase classname="Scenario: Missing a command line argument" name="Then the analyser response is &quot;Failure-Missing date range arguments: FromDate ToDate&quot;" time="0"/>
+  <testcase classname="Scenario: Missing a command line argument" name="Scenario: Missing a command line argument" time="0"/>
+  <testcase classname="Scenario: Invalid date range for command line arguments" name="Given the trade analyser" time="0"/>
+  <testcase classname="Scenario: Invalid date range for command line arguments" name="When I pass an invalid date range as command line arguments" time="0"/>
+  <testcase classname="Scenario: Invalid date range for command line arguments" name="Then the analyser response is &quot;Failure-ToDate is before FromDate&quot;" time="0"/>
+  <testcase classname="Scenario: Invalid date range for command line arguments" name="Scenario: Invalid date range for command line arguments" time="0"/>
+  <testcase classname="| 06/07/2017 | 07/06/2017 | Failure-ToDate is before FromDate |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 06/07/2017 | 07/06/2017 | Failure-ToDate is before FromDate |" name="When I pass 06/07/2017 and 07/06/2017 as command line arguments" time="0"/>
+  <testcase classname="| 06/07/2017 | 07/06/2017 | Failure-ToDate is before FromDate |" name="Then the analyser response is &quot;Failure-ToDate is before FromDate&quot;" time="0"/>
+  <testcase classname="| 06/07/2017 | 07/06/2017 | Failure-ToDate is before FromDate |" name="| 06/07/2017 | 07/06/2017 | Failure-ToDate is before FromDate |" time="0"/>
+  <testcase classname="| 01/01/2018 | 01/01/2017 | Failure-ToDate is before FromDate |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/01/2018 | 01/01/2017 | Failure-ToDate is before FromDate |" name="When I pass 01/01/2018 and 01/01/2017 as command line arguments" time="0.016"/>
+  <testcase classname="| 01/01/2018 | 01/01/2017 | Failure-ToDate is before FromDate |" name="Then the analyser response is &quot;Failure-ToDate is before FromDate&quot;" time="0"/>
+  <testcase classname="| 01/01/2018 | 01/01/2017 | Failure-ToDate is before FromDate |" name="| 01/01/2018 | 01/01/2017 | Failure-ToDate is before FromDate |" time="0"/>
+  <testcase classname="| 29/02/2016 | 28/02/2016 | Failure-ToDate is before FromDate |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 29/02/2016 | 28/02/2016 | Failure-ToDate is before FromDate |" name="When I pass 29/02/2016 and 28/02/2016 as command line arguments" time="0"/>
+  <testcase classname="| 29/02/2016 | 28/02/2016 | Failure-ToDate is before FromDate |" name="Then the analyser response is &quot;Failure-ToDate is before FromDate&quot;" time="0"/>
+  <testcase classname="| 29/02/2016 | 28/02/2016 | Failure-ToDate is before FromDate |" name="| 29/02/2016 | 28/02/2016 | Failure-ToDate is before FromDate |" time="0"/>
+  <testcase classname="| 01/02/17 | 07/06/2017 | Failure-FromDate not in format dd/mm/yyyy |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/02/17 | 07/06/2017 | Failure-FromDate not in format dd/mm/yyyy |" name="When I pass 01/02/17 and 07/06/2017 as command line arguments" time="0"/>
+  <testcase classname="| 01/02/17 | 07/06/2017 | Failure-FromDate not in format dd/mm/yyyy |" name="Then the analyser response is &quot;Failure-FromDate not in format dd/mm/yyyy&quot;" time="0"/>
+  <testcase classname="| 01/02/17 | 07/06/2017 | Failure-FromDate not in format dd/mm/yyyy |" name="| 01/02/17 | 07/06/2017 | Failure-FromDate not in format dd/mm/yyyy |" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/01/18 | Failure-ToDate not in format dd/mm/yyyy |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/01/18 | Failure-ToDate not in format dd/mm/yyyy |" name="When I pass 01/01/2017 and 01/01/18 as command line arguments" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/01/18 | Failure-ToDate not in format dd/mm/yyyy |" name="Then the analyser response is &quot;Failure-ToDate not in format dd/mm/yyyy&quot;" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/01/18 | Failure-ToDate not in format dd/mm/yyyy |" name="| 01/01/2017 | 01/01/18 | Failure-ToDate not in format dd/mm/yyyy |" time="0"/>
+  <testcase classname="| 20 02 2017 | 01 03 2017 | Failure-FromDate not in format dd/mm/yyyy |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 20 02 2017 | 01 03 2017 | Failure-FromDate not in format dd/mm/yyyy |" name="When I pass 20 02 2017 and 01 03 2017 as command line arguments" time="0"/>
+  <testcase classname="| 20 02 2017 | 01 03 2017 | Failure-FromDate not in format dd/mm/yyyy |" name="Then the analyser response is &quot;Failure-FromDate not in format dd/mm/yyyy&quot;" time="0"/>
+  <testcase classname="| 20 02 2017 | 01 03 2017 | Failure-FromDate not in format dd/mm/yyyy |" name="| 20 02 2017 | 01 03 2017 | Failure-FromDate not in format dd/mm/yyyy |" time="0"/>
+  <testcase classname="| 29-02-2017 | 01-03-2017 | Failure-FromDate not in format dd/mm/yyyy |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 29-02-2017 | 01-03-2017 | Failure-FromDate not in format dd/mm/yyyy |" name="When I pass 29-02-2017 and 01-03-2017 as command line arguments" time="0"/>
+  <testcase classname="| 29-02-2017 | 01-03-2017 | Failure-FromDate not in format dd/mm/yyyy |" name="Then the analyser response is &quot;Failure-FromDate not in format dd/mm/yyyy&quot;" time="0"/>
+  <testcase classname="| 29-02-2017 | 01-03-2017 | Failure-FromDate not in format dd/mm/yyyy |" name="| 29-02-2017 | 01-03-2017 | Failure-FromDate not in format dd/mm/yyyy |" time="0"/>
+  <testcase classname="| 1 Mar 2017 | 01/03/2017 | Failure-FromDate not in format dd/mm/yyyy |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 1 Mar 2017 | 01/03/2017 | Failure-FromDate not in format dd/mm/yyyy |" name="When I pass 1 Mar 2017 and 01/03/2017 as command line arguments" time="0"/>
+  <testcase classname="| 1 Mar 2017 | 01/03/2017 | Failure-FromDate not in format dd/mm/yyyy |" name="Then the analyser response is &quot;Failure-FromDate not in format dd/mm/yyyy&quot;" time="0"/>
+  <testcase classname="| 1 Mar 2017 | 01/03/2017 | Failure-FromDate not in format dd/mm/yyyy |" name="| 1 Mar 2017 | 01/03/2017 | Failure-FromDate not in format dd/mm/yyyy |" time="0"/>
+  <testcase classname="| 31/02/2017 | 01/03/2017 | Failure-FromDate not in format dd/mm/yyyy |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 31/02/2017 | 01/03/2017 | Failure-FromDate not in format dd/mm/yyyy |" name="When I pass 31/02/2017 and 01/03/2017 as command line arguments" time="0"/>
+  <testcase classname="| 31/02/2017 | 01/03/2017 | Failure-FromDate not in format dd/mm/yyyy |" name="Then the analyser response is &quot;Failure-FromDate not in format dd/mm/yyyy&quot;" time="0"/>
+  <testcase classname="| 31/02/2017 | 01/03/2017 | Failure-FromDate not in format dd/mm/yyyy |" name="| 31/02/2017 | 01/03/2017 | Failure-FromDate not in format dd/mm/yyyy |" time="0"/>
+  <testcase classname="| 31/09/2017 | 01/10/2017 | Failure-FromDate not in format dd/mm/yyyy |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 31/09/2017 | 01/10/2017 | Failure-FromDate not in format dd/mm/yyyy |" name="When I pass 31/09/2017 and 01/10/2017 as command line arguments" time="0"/>
+  <testcase classname="| 31/09/2017 | 01/10/2017 | Failure-FromDate not in format dd/mm/yyyy |" name="Then the analyser response is &quot;Failure-FromDate not in format dd/mm/yyyy&quot;" time="0"/>
+  <testcase classname="| 31/09/2017 | 01/10/2017 | Failure-FromDate not in format dd/mm/yyyy |" name="| 31/09/2017 | 01/10/2017 | Failure-FromDate not in format dd/mm/yyyy |" time="0"/>
+  <testcase classname="| 11/03/2017 | 04/13/2017 | Failure-ToDate not in format dd/mm/yyyy |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 11/03/2017 | 04/13/2017 | Failure-ToDate not in format dd/mm/yyyy |" name="When I pass 11/03/2017 and 04/13/2017 as command line arguments" time="0"/>
+  <testcase classname="| 11/03/2017 | 04/13/2017 | Failure-ToDate not in format dd/mm/yyyy |" name="Then the analyser response is &quot;Failure-ToDate not in format dd/mm/yyyy&quot;" time="0"/>
+  <testcase classname="| 11/03/2017 | 04/13/2017 | Failure-ToDate not in format dd/mm/yyyy |" name="| 11/03/2017 | 04/13/2017 | Failure-ToDate not in format dd/mm/yyyy |" time="0"/>
+  <testcase classname="| 28/02/2017 | 29/02/2017 | Failure-ToDate not in format dd/mm/yyyy |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 28/02/2017 | 29/02/2017 | Failure-ToDate not in format dd/mm/yyyy |" name="When I pass 28/02/2017 and 29/02/2017 as command line arguments" time="0"/>
+  <testcase classname="| 28/02/2017 | 29/02/2017 | Failure-ToDate not in format dd/mm/yyyy |" name="Then the analyser response is &quot;Failure-ToDate not in format dd/mm/yyyy&quot;" time="0"/>
+  <testcase classname="| 28/02/2017 | 29/02/2017 | Failure-ToDate not in format dd/mm/yyyy |" name="| 28/02/2017 | 29/02/2017 | Failure-ToDate not in format dd/mm/yyyy |" time="0"/>
+  <testcase classname="| 01/01/2017 | 30/11/2017 | MKS | 100 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/01/2017 | 30/11/2017 | MKS | 100 | Success |" name="And using the FTSE100 data files" time="0"/>
+  <testcase classname="| 01/01/2017 | 30/11/2017 | MKS | 100 | Success |" name="When I pass 01/01/2017 and 30/11/2017 as command line arguments" time="0"/>
+  <testcase classname="| 01/01/2017 | 30/11/2017 | MKS | 100 | Success |" name="Then the traded volume for MKS is 100" time="0"/>
+  <testcase classname="| 01/01/2017 | 30/11/2017 | MKS | 100 | Success |" name="And the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 01/01/2017 | 30/11/2017 | MKS | 100 | Success |" name="| 01/01/2017 | 30/11/2017 | MKS | 100 | Success |" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/12/2017 | MKS | 300 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/12/2017 | MKS | 300 | Success |" name="And using the FTSE100 data files" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/12/2017 | MKS | 300 | Success |" name="When I pass 01/01/2017 and 01/12/2017 as command line arguments" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/12/2017 | MKS | 300 | Success |" name="Then the traded volume for MKS is 300" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/12/2017 | MKS | 300 | Success |" name="And the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/12/2017 | MKS | 300 | Success |" name="| 01/01/2017 | 01/12/2017 | MKS | 300 | Success |" time="0"/>
+  <testcase classname="| 01/12/2017 | 15/12/2017 | MKS | 200 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/12/2017 | 15/12/2017 | MKS | 200 | Success |" name="And using the FTSE100 data files" time="0"/>
+  <testcase classname="| 01/12/2017 | 15/12/2017 | MKS | 200 | Success |" name="When I pass 01/12/2017 and 15/12/2017 as command line arguments" time="0"/>
+  <testcase classname="| 01/12/2017 | 15/12/2017 | MKS | 200 | Success |" name="Then the traded volume for MKS is 200" time="0"/>
+  <testcase classname="| 01/12/2017 | 15/12/2017 | MKS | 200 | Success |" name="And the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 01/12/2017 | 15/12/2017 | MKS | 200 | Success |" name="| 01/12/2017 | 15/12/2017 | MKS | 200 | Success |" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | MKS | 1500 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | MKS | 1500 | Success |" name="And using the FTSE100 data files" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | MKS | 1500 | Success |" name="When I pass 01/01/2017 and 31/12/2017 as command line arguments" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | MKS | 1500 | Success |" name="Then the traded volume for MKS is 1500" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | MKS | 1500 | Success |" name="And the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | MKS | 1500 | Success |" name="| 01/01/2017 | 31/12/2017 | MKS | 1500 | Success |" time="0"/>
+  <testcase classname="| 01/01/2018 | 31/12/2018 | MKS | 0 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/01/2018 | 31/12/2018 | MKS | 0 | Success |" name="And using the FTSE100 data files" time="0"/>
+  <testcase classname="| 01/01/2018 | 31/12/2018 | MKS | 0 | Success |" name="When I pass 01/01/2018 and 31/12/2018 as command line arguments" time="0"/>
+  <testcase classname="| 01/01/2018 | 31/12/2018 | MKS | 0 | Success |" name="Then the traded volume for MKS is 0" time="0"/>
+  <testcase classname="| 01/01/2018 | 31/12/2018 | MKS | 0 | Success |" name="And the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 01/01/2018 | 31/12/2018 | MKS | 0 | Success |" name="| 01/01/2018 | 31/12/2018 | MKS | 0 | Success |" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | OML | 5 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | OML | 5 | Success |" name="And using the FTSE100 data files" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | OML | 5 | Success |" name="When I pass 01/01/2017 and 31/12/2017 as command line arguments" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | OML | 5 | Success |" name="Then the traded volume for OML is 5" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | OML | 5 | Success |" name="And the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | OML | 5 | Success |" name="| 01/01/2017 | 31/12/2017 | OML | 5 | Success |" time="0"/>
+  <testcase classname="| 16/12/2017 | 31/12/2017 | OML | 0 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 16/12/2017 | 31/12/2017 | OML | 0 | Success |" name="And using the FTSE100 data files" time="0"/>
+  <testcase classname="| 16/12/2017 | 31/12/2017 | OML | 0 | Success |" name="When I pass 16/12/2017 and 31/12/2017 as command line arguments" time="0"/>
+  <testcase classname="| 16/12/2017 | 31/12/2017 | OML | 0 | Success |" name="Then the traded volume for OML is 0" time="0"/>
+  <testcase classname="| 16/12/2017 | 31/12/2017 | OML | 0 | Success |" name="And the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 16/12/2017 | 31/12/2017 | OML | 0 | Success |" name="| 16/12/2017 | 31/12/2017 | OML | 0 | Success |" time="0"/>
+  <testcase classname="| 01/12/2017 | 01/12/2017 | BT.A | 2000 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/12/2017 | 01/12/2017 | BT.A | 2000 | Success |" name="And using the FTSE100 data files" time="0"/>
+  <testcase classname="| 01/12/2017 | 01/12/2017 | BT.A | 2000 | Success |" name="When I pass 01/12/2017 and 01/12/2017 as command line arguments" time="0"/>
+  <testcase classname="| 01/12/2017 | 01/12/2017 | BT.A | 2000 | Success |" name="Then the traded volume for BT.A is 2000" time="0"/>
+  <testcase classname="| 01/12/2017 | 01/12/2017 | BT.A | 2000 | Success |" name="And the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 01/12/2017 | 01/12/2017 | BT.A | 2000 | Success |" name="| 01/12/2017 | 01/12/2017 | BT.A | 2000 | Success |" time="0"/>
+  <testcase classname="| 01/12/2017 | 31/01/2018 | BT.A | 2200 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/12/2017 | 31/01/2018 | BT.A | 2200 | Success |" name="And using the FTSE100 data files" time="0"/>
+  <testcase classname="| 01/12/2017 | 31/01/2018 | BT.A | 2200 | Success |" name="When I pass 01/12/2017 and 31/01/2018 as command line arguments" time="0"/>
+  <testcase classname="| 01/12/2017 | 31/01/2018 | BT.A | 2200 | Success |" name="Then the traded volume for BT.A is 2200" time="0"/>
+  <testcase classname="| 01/12/2017 | 31/01/2018 | BT.A | 2200 | Success |" name="And the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 01/12/2017 | 31/01/2018 | BT.A | 2200 | Success |" name="| 01/12/2017 | 31/01/2018 | BT.A | 2200 | Success |" time="0"/>
+  <testcase classname="| 01/12/2017 | 31/01/2018 | JMAT | 400 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/12/2017 | 31/01/2018 | JMAT | 400 | Success |" name="And using the FTSE100 data files" time="0"/>
+  <testcase classname="| 01/12/2017 | 31/01/2018 | JMAT | 400 | Success |" name="When I pass 01/12/2017 and 31/01/2018 as command line arguments" time="0"/>
+  <testcase classname="| 01/12/2017 | 31/01/2018 | JMAT | 400 | Success |" name="Then the traded volume for JMAT is 400" time="0"/>
+  <testcase classname="| 01/12/2017 | 31/01/2018 | JMAT | 400 | Success |" name="And the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 01/12/2017 | 31/01/2018 | JMAT | 400 | Success |" name="| 01/12/2017 | 31/01/2018 | JMAT | 400 | Success |" time="0"/>
+  <testcase classname="| 01/12/2017 | 31/01/2018 | VOD | 0 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/12/2017 | 31/01/2018 | VOD | 0 | Success |" name="And using the FTSE100 data files" time="0"/>
+  <testcase classname="| 01/12/2017 | 31/01/2018 | VOD | 0 | Success |" name="When I pass 01/12/2017 and 31/01/2018 as command line arguments" time="0"/>
+  <testcase classname="| 01/12/2017 | 31/01/2018 | VOD | 0 | Success |" name="Then the traded volume for VOD is 0" time="0"/>
+  <testcase classname="| 01/12/2017 | 31/01/2018 | VOD | 0 | Success |" name="And the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 01/12/2017 | 31/01/2018 | VOD | 0 | Success |" name="| 01/12/2017 | 31/01/2018 | VOD | 0 | Success |" time="0"/>
+  <testcase classname="| ABF | Found |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| ABF | Found |" name="And using the FTSE100 data files" time="0"/>
+  <testcase classname="| ABF | Found |" name="When I pass a valid date range as command line arguments" time="0"/>
+  <testcase classname="| ABF | Found |" name="Then I can verify whether ABF was Found in the instrument file" time="0"/>
+  <testcase classname="| ABF | Found |" name="| ABF | Found |" time="0"/>
+  <testcase classname="| NG. | Found |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| NG. | Found |" name="And using the FTSE100 data files" time="0"/>
+  <testcase classname="| NG. | Found |" name="When I pass a valid date range as command line arguments" time="0"/>
+  <testcase classname="| NG. | Found |" name="Then I can verify whether NG. was Found in the instrument file" time="0"/>
+  <testcase classname="| NG. | Found |" name="| NG. | Found |" time="0"/>
+  <testcase classname="| NG.X | Missing |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| NG.X | Missing |" name="And using the FTSE100 data files" time="0"/>
+  <testcase classname="| NG.X | Missing |" name="When I pass a valid date range as command line arguments" time="0"/>
+  <testcase classname="| NG.X | Missing |" name="Then I can verify whether NG.X was Missing in the instrument file" time="0"/>
+  <testcase classname="| NG.X | Missing |" name="| NG.X | Missing |" time="0"/>
+  <testcase classname="| BT.A | Found |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| BT.A | Found |" name="And using the FTSE100 data files" time="0"/>
+  <testcase classname="| BT.A | Found |" name="When I pass a valid date range as command line arguments" time="0"/>
+  <testcase classname="| BT.A | Found |" name="Then I can verify whether BT.A was Found in the instrument file" time="0"/>
+  <testcase classname="| BT.A | Found |" name="| BT.A | Found |" time="0"/>
+  <testcase classname="| RDSA | Found |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| RDSA | Found |" name="And using the FTSE100 data files" time="0"/>
+  <testcase classname="| RDSA | Found |" name="When I pass a valid date range as command line arguments" time="0.015"/>
+  <testcase classname="| RDSA | Found |" name="Then I can verify whether RDSA was Found in the instrument file" time="0"/>
+  <testcase classname="| RDSA | Found |" name="| RDSA | Found |" time="0"/>
+  <testcase classname="| JE | Found |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| JE | Found |" name="And using the FTSE100 data files" time="0"/>
+  <testcase classname="| JE | Found |" name="When I pass a valid date range as command line arguments" time="0"/>
+  <testcase classname="| JE | Found |" name="Then I can verify whether JE was Found in the instrument file" time="0"/>
+  <testcase classname="| JE | Found |" name="| JE | Found |" time="0"/>
+  <testcase classname="| III | Found |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| III | Found |" name="And using the FTSE100 data files" time="0"/>
+  <testcase classname="| III | Found |" name="When I pass a valid date range as command line arguments" time="0"/>
+  <testcase classname="| III | Found |" name="Then I can verify whether III was Found in the instrument file" time="0"/>
+  <testcase classname="| III | Found |" name="| III | Found |" time="0"/>
+  <testcase classname="| IN1 | Missing |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| IN1 | Missing |" name="And using the FTSE100 data files" time="0"/>
+  <testcase classname="| IN1 | Missing |" name="When I pass a valid date range as command line arguments" time="0"/>
+  <testcase classname="| IN1 | Missing |" name="Then I can verify whether IN1 was Missing in the instrument file" time="0"/>
+  <testcase classname="| IN1 | Missing |" name="| IN1 | Missing |" time="0"/>
+  <testcase classname="| IN2 | Missing |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| IN2 | Missing |" name="And using the FTSE100 data files" time="0"/>
+  <testcase classname="| IN2 | Missing |" name="When I pass a valid date range as command line arguments" time="0"/>
+  <testcase classname="| IN2 | Missing |" name="Then I can verify whether IN2 was Missing in the instrument file" time="0"/>
+  <testcase classname="| IN2 | Missing |" name="| IN2 | Missing |" time="0"/>
+  <testcase classname="| IN3 | Missing |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| IN3 | Missing |" name="And using the FTSE100 data files" time="0"/>
+  <testcase classname="| IN3 | Missing |" name="When I pass a valid date range as command line arguments" time="0"/>
+  <testcase classname="| IN3 | Missing |" name="Then I can verify whether IN3 was Missing in the instrument file" time="0"/>
+  <testcase classname="| IN3 | Missing |" name="| IN3 | Missing |" time="0"/>
+  <testcase classname="| 01/01/2017 | 29/11/2017 | 0 | 100 |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/01/2017 | 29/11/2017 | 0 | 100 |" name="And using the FTSE100 data files" time="0"/>
+  <testcase classname="| 01/01/2017 | 29/11/2017 | 0 | 100 |" name="When I pass 01/01/2017 and 29/11/2017 as command line arguments" time="0"/>
+  <testcase classname="| 01/01/2017 | 29/11/2017 | 0 | 100 |" name="Then the list of instruments traded has 0 rows" time="0"/>
+  <testcase classname="| 01/01/2017 | 29/11/2017 | 0 | 100 |" name="And the list of instruments not traded has 100 rows" time="0"/>
+  <testcase classname="| 01/01/2017 | 29/11/2017 | 0 | 100 |" name="| 01/01/2017 | 29/11/2017 | 0 | 100 |" time="0"/>
+  <testcase classname="| 01/01/2017 | 30/11/2017 | 1 | 99 |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/01/2017 | 30/11/2017 | 1 | 99 |" name="And using the FTSE100 data files" time="0"/>
+  <testcase classname="| 01/01/2017 | 30/11/2017 | 1 | 99 |" name="When I pass 01/01/2017 and 30/11/2017 as command line arguments" time="0"/>
+  <testcase classname="| 01/01/2017 | 30/11/2017 | 1 | 99 |" name="Then the list of instruments traded has 1 rows" time="0"/>
+  <testcase classname="| 01/01/2017 | 30/11/2017 | 1 | 99 |" name="And the list of instruments not traded has 99 rows" time="0"/>
+  <testcase classname="| 01/01/2017 | 30/11/2017 | 1 | 99 |" name="| 01/01/2017 | 30/11/2017 | 1 | 99 |" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/12/2017 | 5 | 95 |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/12/2017 | 5 | 95 |" name="And using the FTSE100 data files" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/12/2017 | 5 | 95 |" name="When I pass 01/01/2017 and 01/12/2017 as command line arguments" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/12/2017 | 5 | 95 |" name="Then the list of instruments traded has 5 rows" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/12/2017 | 5 | 95 |" name="And the list of instruments not traded has 95 rows" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/12/2017 | 5 | 95 |" name="| 01/01/2017 | 01/12/2017 | 5 | 95 |" time="0"/>
+  <testcase classname="| 01/01/2017 | 15/12/2017 | 6 | 94 |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/01/2017 | 15/12/2017 | 6 | 94 |" name="And using the FTSE100 data files" time="0"/>
+  <testcase classname="| 01/01/2017 | 15/12/2017 | 6 | 94 |" name="When I pass 01/01/2017 and 15/12/2017 as command line arguments" time="0"/>
+  <testcase classname="| 01/01/2017 | 15/12/2017 | 6 | 94 |" name="Then the list of instruments traded has 6 rows" time="0"/>
+  <testcase classname="| 01/01/2017 | 15/12/2017 | 6 | 94 |" name="And the list of instruments not traded has 94 rows" time="0"/>
+  <testcase classname="| 01/01/2017 | 15/12/2017 | 6 | 94 |" name="| 01/01/2017 | 15/12/2017 | 6 | 94 |" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | 7 | 93 |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | 7 | 93 |" name="And using the FTSE100 data files" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | 7 | 93 |" name="When I pass 01/01/2017 and 31/12/2017 as command line arguments" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | 7 | 93 |" name="Then the list of instruments traded has 7 rows" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | 7 | 93 |" name="And the list of instruments not traded has 93 rows" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | 7 | 93 |" name="| 01/01/2017 | 31/12/2017 | 7 | 93 |" time="0"/>
+  <testcase classname="| 30/12/2017 | 01/01/2018 | 1 | 99 |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 30/12/2017 | 01/01/2018 | 1 | 99 |" name="And using the FTSE100 data files" time="0"/>
+  <testcase classname="| 30/12/2017 | 01/01/2018 | 1 | 99 |" name="When I pass 30/12/2017 and 01/01/2018 as command line arguments" time="0"/>
+  <testcase classname="| 30/12/2017 | 01/01/2018 | 1 | 99 |" name="Then the list of instruments traded has 1 rows" time="0"/>
+  <testcase classname="| 30/12/2017 | 01/01/2018 | 1 | 99 |" name="And the list of instruments not traded has 99 rows" time="0"/>
+  <testcase classname="| 30/12/2017 | 01/01/2018 | 1 | 99 |" name="| 30/12/2017 | 01/01/2018 | 1 | 99 |" time="0"/>
+  <testcase classname="| 01/01/2018 | 04/01/2018 | 2 | 98 |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/01/2018 | 04/01/2018 | 2 | 98 |" name="And using the FTSE100 data files" time="0"/>
+  <testcase classname="| 01/01/2018 | 04/01/2018 | 2 | 98 |" name="When I pass 01/01/2018 and 04/01/2018 as command line arguments" time="0"/>
+  <testcase classname="| 01/01/2018 | 04/01/2018 | 2 | 98 |" name="Then the list of instruments traded has 2 rows" time="0"/>
+  <testcase classname="| 01/01/2018 | 04/01/2018 | 2 | 98 |" name="And the list of instruments not traded has 98 rows" time="0"/>
+  <testcase classname="| 01/01/2018 | 04/01/2018 | 2 | 98 |" name="| 01/01/2018 | 04/01/2018 | 2 | 98 |" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/11/2018 | ADM | 0 | Failure-ToDate not in format dd/mm/yyyy |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/11/2018 | ADM | 0 | Failure-ToDate not in format dd/mm/yyyy |" name="And using the FTSE100 data files" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/11/2018 | ADM | 0 | Failure-ToDate not in format dd/mm/yyyy |" name="When I pass 30/11/2017 and 31/11/2018 as command line arguments" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/11/2018 | ADM | 0 | Failure-ToDate not in format dd/mm/yyyy |" name="Then the traded volume for ADM is 0" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/11/2018 | ADM | 0 | Failure-ToDate not in format dd/mm/yyyy |" name="And the analyser response is &quot;Failure-ToDate not in format dd/mm/yyyy&quot;" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/11/2018 | ADM | 0 | Failure-ToDate not in format dd/mm/yyyy |" name="| 30/11/2017 | 31/11/2018 | ADM | 0 | Failure-ToDate not in format dd/mm/yyyy |" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | IN1 | 0 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | IN1 | 0 | Success |" name="And using the FTSE100 data files" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | IN1 | 0 | Success |" name="When I pass 01/01/2017 and 31/12/2017 as command line arguments" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | IN1 | 0 | Success |" name="Then the traded volume for IN1 is 0" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | IN1 | 0 | Success |" name="And the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | IN1 | 0 | Success |" name="| 01/01/2017 | 31/12/2017 | IN1 | 0 | Success |" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | IN1 | 100 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | IN1 | 100 | Success |" name="And using the data files supplied" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | IN1 | 100 | Success |" name="When I pass 01/01/2017 and 31/12/2017 as command line arguments" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | IN1 | 100 | Success |" name="Then the traded volume for IN1 is 100" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | IN1 | 100 | Success |" name="And the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | IN1 | 100 | Success |" name="| 01/01/2017 | 31/12/2017 | IN1 | 100 | Success |" time="0"/>
+  <testcase classname="| 30/11/2017 | 30/11/2017 | IN1 | 100 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 30/11/2017 | 30/11/2017 | IN1 | 100 | Success |" name="And using the data files supplied" time="0"/>
+  <testcase classname="| 30/11/2017 | 30/11/2017 | IN1 | 100 | Success |" name="When I pass 30/11/2017 and 30/11/2017 as command line arguments" time="0"/>
+  <testcase classname="| 30/11/2017 | 30/11/2017 | IN1 | 100 | Success |" name="Then the traded volume for IN1 is 100" time="0"/>
+  <testcase classname="| 30/11/2017 | 30/11/2017 | IN1 | 100 | Success |" name="And the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 30/11/2017 | 30/11/2017 | IN1 | 100 | Success |" name="| 30/11/2017 | 30/11/2017 | IN1 | 100 | Success |" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/12/2017 | IN1 | 100 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/12/2017 | IN1 | 100 | Success |" name="And using the data files supplied" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/12/2017 | IN1 | 100 | Success |" name="When I pass 30/11/2017 and 31/12/2017 as command line arguments" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/12/2017 | IN1 | 100 | Success |" name="Then the traded volume for IN1 is 100" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/12/2017 | IN1 | 100 | Success |" name="And the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/12/2017 | IN1 | 100 | Success |" name="| 30/11/2017 | 31/12/2017 | IN1 | 100 | Success |" time="0"/>
+  <testcase classname="| 01/01/2017 | 30/11/2017 | IN1 | 100 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/01/2017 | 30/11/2017 | IN1 | 100 | Success |" name="And using the data files supplied" time="0"/>
+  <testcase classname="| 01/01/2017 | 30/11/2017 | IN1 | 100 | Success |" name="When I pass 01/01/2017 and 30/11/2017 as command line arguments" time="0"/>
+  <testcase classname="| 01/01/2017 | 30/11/2017 | IN1 | 100 | Success |" name="Then the traded volume for IN1 is 100" time="0"/>
+  <testcase classname="| 01/01/2017 | 30/11/2017 | IN1 | 100 | Success |" name="And the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 01/01/2017 | 30/11/2017 | IN1 | 100 | Success |" name="| 01/01/2017 | 30/11/2017 | IN1 | 100 | Success |" time="0"/>
+  <testcase classname="| 30/11/2017 | 30/11/2017 | IN1 | 100 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 30/11/2017 | 30/11/2017 | IN1 | 100 | Success |" name="And using the data files supplied" time="0"/>
+  <testcase classname="| 30/11/2017 | 30/11/2017 | IN1 | 100 | Success |" name="When I pass 30/11/2017 and 30/11/2017 as command line arguments" time="0"/>
+  <testcase classname="| 30/11/2017 | 30/11/2017 | IN1 | 100 | Success |" name="Then the traded volume for IN1 is 100" time="0"/>
+  <testcase classname="| 30/11/2017 | 30/11/2017 | IN1 | 100 | Success |" name="And the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 30/11/2017 | 30/11/2017 | IN1 | 100 | Success |" name="| 30/11/2017 | 30/11/2017 | IN1 | 100 | Success |" time="0"/>
+  <testcase classname="| 01/01/2017 | 29/11/2017 | IN1 | 0 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/01/2017 | 29/11/2017 | IN1 | 0 | Success |" name="And using the data files supplied" time="0"/>
+  <testcase classname="| 01/01/2017 | 29/11/2017 | IN1 | 0 | Success |" name="When I pass 01/01/2017 and 29/11/2017 as command line arguments" time="0"/>
+  <testcase classname="| 01/01/2017 | 29/11/2017 | IN1 | 0 | Success |" name="Then the traded volume for IN1 is 0" time="0"/>
+  <testcase classname="| 01/01/2017 | 29/11/2017 | IN1 | 0 | Success |" name="And the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 01/01/2017 | 29/11/2017 | IN1 | 0 | Success |" name="| 01/01/2017 | 29/11/2017 | IN1 | 0 | Success |" time="0"/>
+  <testcase classname="| 01/12/2017 | 01/01/2018 | IN1 | 0 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/12/2017 | 01/01/2018 | IN1 | 0 | Success |" name="And using the data files supplied" time="0"/>
+  <testcase classname="| 01/12/2017 | 01/01/2018 | IN1 | 0 | Success |" name="When I pass 01/12/2017 and 01/01/2018 as command line arguments" time="0"/>
+  <testcase classname="| 01/12/2017 | 01/01/2018 | IN1 | 0 | Success |" name="Then the traded volume for IN1 is 0" time="0"/>
+  <testcase classname="| 01/12/2017 | 01/01/2018 | IN1 | 0 | Success |" name="And the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 01/12/2017 | 01/01/2018 | IN1 | 0 | Success |" name="| 01/12/2017 | 01/01/2018 | IN1 | 0 | Success |" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | IN2 | 0 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | IN2 | 0 | Success |" name="And using the data files supplied" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | IN2 | 0 | Success |" name="When I pass 01/01/2017 and 31/12/2017 as command line arguments" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | IN2 | 0 | Success |" name="Then the traded volume for IN2 is 0" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | IN2 | 0 | Success |" name="And the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | IN2 | 0 | Success |" name="| 01/01/2017 | 31/12/2017 | IN2 | 0 | Success |" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/12/2017 | IN3 | 0 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/12/2017 | IN3 | 0 | Success |" name="And using the data files supplied" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/12/2017 | IN3 | 0 | Success |" name="When I pass 30/11/2017 and 31/12/2017 as command line arguments" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/12/2017 | IN3 | 0 | Success |" name="Then the traded volume for IN3 is 0" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/12/2017 | IN3 | 0 | Success |" name="And the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/12/2017 | IN3 | 0 | Success |" name="| 30/11/2017 | 31/12/2017 | IN3 | 0 | Success |" time="0"/>
+  <testcase classname="| IN1 | Found |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| IN1 | Found |" name="And using the data files supplied" time="0"/>
+  <testcase classname="| IN1 | Found |" name="When I pass a valid date range as command line arguments" time="0"/>
+  <testcase classname="| IN1 | Found |" name="Then I can verify whether IN1 was Found in the instrument file" time="0"/>
+  <testcase classname="| IN1 | Found |" name="| IN1 | Found |" time="0"/>
+  <testcase classname="| IN2 | Found |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| IN2 | Found |" name="And using the data files supplied" time="0"/>
+  <testcase classname="| IN2 | Found |" name="When I pass a valid date range as command line arguments" time="0"/>
+  <testcase classname="| IN2 | Found |" name="Then I can verify whether IN2 was Found in the instrument file" time="0"/>
+  <testcase classname="| IN2 | Found |" name="| IN2 | Found |" time="0"/>
+  <testcase classname="| IN3 | Found |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| IN3 | Found |" name="And using the data files supplied" time="0"/>
+  <testcase classname="| IN3 | Found |" name="When I pass a valid date range as command line arguments" time="0"/>
+  <testcase classname="| IN3 | Found |" name="Then I can verify whether IN3 was Found in the instrument file" time="0"/>
+  <testcase classname="| IN3 | Found |" name="| IN3 | Found |" time="0"/>
+  <testcase classname="| IN4 | Missing |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| IN4 | Missing |" name="And using the data files supplied" time="0"/>
+  <testcase classname="| IN4 | Missing |" name="When I pass a valid date range as command line arguments" time="0"/>
+  <testcase classname="| IN4 | Missing |" name="Then I can verify whether IN4 was Missing in the instrument file" time="0"/>
+  <testcase classname="| IN4 | Missing |" name="| IN4 | Missing |" time="0"/>
+  <testcase classname="| XXX | Missing |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| XXX | Missing |" name="And using the data files supplied" time="0"/>
+  <testcase classname="| XXX | Missing |" name="When I pass a valid date range as command line arguments" time="0"/>
+  <testcase classname="| XXX | Missing |" name="Then I can verify whether XXX was Missing in the instrument file" time="0"/>
+  <testcase classname="| XXX | Missing |" name="| XXX | Missing |" time="0"/>
+  <testcase classname="| Xyz | Missing |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| Xyz | Missing |" name="And using the data files supplied" time="0"/>
+  <testcase classname="| Xyz | Missing |" name="When I pass a valid date range as command line arguments" time="0"/>
+  <testcase classname="| Xyz | Missing |" name="Then I can verify whether Xyz was Missing in the instrument file" time="0"/>
+  <testcase classname="| Xyz | Missing |" name="| Xyz | Missing |" time="0"/>
+  <testcase classname="|  | Missing |" name="Given the trade analyser" time="0"/>
+  <testcase classname="|  | Missing |" name="And using the data files supplied" time="0"/>
+  <testcase classname="|  | Missing |" name="When I pass a valid date range as command line arguments" time="0"/>
+  <testcase classname="|  | Missing |" name="Then I can verify whether  was Missing in the instrument file" time="0"/>
+  <testcase classname="|  | Missing |" name="|  | Missing |" time="0"/>
+  <testcase classname="| in1 | Missing |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| in1 | Missing |" name="And using the data files supplied" time="0"/>
+  <testcase classname="| in1 | Missing |" name="When I pass a valid date range as command line arguments" time="0"/>
+  <testcase classname="| in1 | Missing |" name="Then I can verify whether in1 was Missing in the instrument file" time="0"/>
+  <testcase classname="| in1 | Missing |" name="| in1 | Missing |" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | 1 | 2 |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | 1 | 2 |" name="And using the data files supplied" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | 1 | 2 |" name="When I pass 01/01/2017 and 31/12/2017 as command line arguments" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | 1 | 2 |" name="Then the list of instruments traded has 1 rows" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | 1 | 2 |" name="And the list of instruments not traded has 2 rows" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | 1 | 2 |" name="| 01/01/2017 | 31/12/2017 | 1 | 2 |" time="0"/>
+  <testcase classname="| 30/11/2017 | 30/11/2017 | 1 | 2 |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 30/11/2017 | 30/11/2017 | 1 | 2 |" name="And using the data files supplied" time="0"/>
+  <testcase classname="| 30/11/2017 | 30/11/2017 | 1 | 2 |" name="When I pass 30/11/2017 and 30/11/2017 as command line arguments" time="0"/>
+  <testcase classname="| 30/11/2017 | 30/11/2017 | 1 | 2 |" name="Then the list of instruments traded has 1 rows" time="0"/>
+  <testcase classname="| 30/11/2017 | 30/11/2017 | 1 | 2 |" name="And the list of instruments not traded has 2 rows" time="0"/>
+  <testcase classname="| 30/11/2017 | 30/11/2017 | 1 | 2 |" name="| 30/11/2017 | 30/11/2017 | 1 | 2 |" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/12/2017 | 1 | 2 |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/12/2017 | 1 | 2 |" name="And using the data files supplied" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/12/2017 | 1 | 2 |" name="When I pass 30/11/2017 and 31/12/2017 as command line arguments" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/12/2017 | 1 | 2 |" name="Then the list of instruments traded has 1 rows" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/12/2017 | 1 | 2 |" name="And the list of instruments not traded has 2 rows" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/12/2017 | 1 | 2 |" name="| 30/11/2017 | 31/12/2017 | 1 | 2 |" time="0"/>
+  <testcase classname="| 01/01/2017 | 30/11/2017 | 1 | 2 |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/01/2017 | 30/11/2017 | 1 | 2 |" name="And using the data files supplied" time="0"/>
+  <testcase classname="| 01/01/2017 | 30/11/2017 | 1 | 2 |" name="When I pass 01/01/2017 and 30/11/2017 as command line arguments" time="0"/>
+  <testcase classname="| 01/01/2017 | 30/11/2017 | 1 | 2 |" name="Then the list of instruments traded has 1 rows" time="0"/>
+  <testcase classname="| 01/01/2017 | 30/11/2017 | 1 | 2 |" name="And the list of instruments not traded has 2 rows" time="0"/>
+  <testcase classname="| 01/01/2017 | 30/11/2017 | 1 | 2 |" name="| 01/01/2017 | 30/11/2017 | 1 | 2 |" time="0"/>
+  <testcase classname="| 01/01/2017 | 29/11/2017 | 0 | 3 |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/01/2017 | 29/11/2017 | 0 | 3 |" name="And using the data files supplied" time="0"/>
+  <testcase classname="| 01/01/2017 | 29/11/2017 | 0 | 3 |" name="When I pass 01/01/2017 and 29/11/2017 as command line arguments" time="0"/>
+  <testcase classname="| 01/01/2017 | 29/11/2017 | 0 | 3 |" name="Then the list of instruments traded has 0 rows" time="0"/>
+  <testcase classname="| 01/01/2017 | 29/11/2017 | 0 | 3 |" name="And the list of instruments not traded has 3 rows" time="0"/>
+  <testcase classname="| 01/01/2017 | 29/11/2017 | 0 | 3 |" name="| 01/01/2017 | 29/11/2017 | 0 | 3 |" time="0"/>
+  <testcase classname="| 01/12/2017 | 01/01/2018 | 0 | 3 |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/12/2017 | 01/01/2018 | 0 | 3 |" name="And using the data files supplied" time="0"/>
+  <testcase classname="| 01/12/2017 | 01/01/2018 | 0 | 3 |" name="When I pass 01/12/2017 and 01/01/2018 as command line arguments" time="0"/>
+  <testcase classname="| 01/12/2017 | 01/01/2018 | 0 | 3 |" name="Then the list of instruments traded has 0 rows" time="0"/>
+  <testcase classname="| 01/12/2017 | 01/01/2018 | 0 | 3 |" name="And the list of instruments not traded has 3 rows" time="0"/>
+  <testcase classname="| 01/12/2017 | 01/01/2018 | 0 | 3 |" name="| 01/12/2017 | 01/01/2018 | 0 | 3 |" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/11/2018 | In1 | 0 | Failure-ToDate not in format dd/mm/yyyy |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/11/2018 | In1 | 0 | Failure-ToDate not in format dd/mm/yyyy |" name="And using the data files supplied" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/11/2018 | In1 | 0 | Failure-ToDate not in format dd/mm/yyyy |" name="When I pass 30/11/2017 and 31/11/2018 as command line arguments" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/11/2018 | In1 | 0 | Failure-ToDate not in format dd/mm/yyyy |" name="Then the traded volume for In1 is 0" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/11/2018 | In1 | 0 | Failure-ToDate not in format dd/mm/yyyy |" name="And the analyser response is &quot;Failure-ToDate not in format dd/mm/yyyy&quot;" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/11/2018 | In1 | 0 | Failure-ToDate not in format dd/mm/yyyy |" name="| 30/11/2017 | 31/11/2018 | In1 | 0 | Failure-ToDate not in format dd/mm/yyyy |" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | XXXXX | 0 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | XXXXX | 0 | Success |" name="And using the data files supplied" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | XXXXX | 0 | Success |" name="When I pass 01/01/2017 and 31/12/2017 as command line arguments" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | XXXXX | 0 | Success |" name="Then the traded volume for XXXXX is 0" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | XXXXX | 0 | Success |" name="And the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 01/01/2017 | 31/12/2017 | XXXXX | 0 | Success |" name="| 01/01/2017 | 31/12/2017 | XXXXX | 0 | Success |" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/01/2018 | IN1 | 500 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/01/2018 | IN1 | 500 | Success |" name="And using the &quot;trades-multiple&quot; trade file" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/01/2018 | IN1 | 500 | Success |" name="When I pass 01/01/2017 and 01/01/2018 as command line arguments" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/01/2018 | IN1 | 500 | Success |" name="Then the traded volume for IN1 is 500" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/01/2018 | IN1 | 500 | Success |" name="And the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/01/2018 | IN1 | 500 | Success |" name="| 01/01/2017 | 01/01/2018 | IN1 | 500 | Success |" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/01/2018 | IN2 | 400 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/01/2018 | IN2 | 400 | Success |" name="And using the &quot;trades-multiple&quot; trade file" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/01/2018 | IN2 | 400 | Success |" name="When I pass 01/01/2017 and 01/01/2018 as command line arguments" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/01/2018 | IN2 | 400 | Success |" name="Then the traded volume for IN2 is 400" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/01/2018 | IN2 | 400 | Success |" name="And the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/01/2018 | IN2 | 400 | Success |" name="| 01/01/2017 | 01/01/2018 | IN2 | 400 | Success |" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/01/2018 | IN3 | 0 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/01/2018 | IN3 | 0 | Success |" name="And using the &quot;trades-multiple&quot; trade file" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/01/2018 | IN3 | 0 | Success |" name="When I pass 01/01/2017 and 01/01/2018 as command line arguments" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/01/2018 | IN3 | 0 | Success |" name="Then the traded volume for IN3 is 0" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/01/2018 | IN3 | 0 | Success |" name="And the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 01/01/2017 | 01/01/2018 | IN3 | 0 | Success |" name="| 01/01/2017 | 01/01/2018 | IN3 | 0 | Success |" time="0"/>
+  <testcase classname="| 01/11/2017 | 30/11/2017 | IN1 | 100 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/11/2017 | 30/11/2017 | IN1 | 100 | Success |" name="And using the &quot;trades-multiple&quot; trade file" time="0"/>
+  <testcase classname="| 01/11/2017 | 30/11/2017 | IN1 | 100 | Success |" name="When I pass 01/11/2017 and 30/11/2017 as command line arguments" time="0"/>
+  <testcase classname="| 01/11/2017 | 30/11/2017 | IN1 | 100 | Success |" name="Then the traded volume for IN1 is 100" time="0"/>
+  <testcase classname="| 01/11/2017 | 30/11/2017 | IN1 | 100 | Success |" name="And the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 01/11/2017 | 30/11/2017 | IN1 | 100 | Success |" name="| 01/11/2017 | 30/11/2017 | IN1 | 100 | Success |" time="0"/>
+  <testcase classname="| 01/11/2017 | 01/12/2017 | IN1 | 200 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/11/2017 | 01/12/2017 | IN1 | 200 | Success |" name="And using the &quot;trades-multiple&quot; trade file" time="0"/>
+  <testcase classname="| 01/11/2017 | 01/12/2017 | IN1 | 200 | Success |" name="When I pass 01/11/2017 and 01/12/2017 as command line arguments" time="0"/>
+  <testcase classname="| 01/11/2017 | 01/12/2017 | IN1 | 200 | Success |" name="Then the traded volume for IN1 is 200" time="0"/>
+  <testcase classname="| 01/11/2017 | 01/12/2017 | IN1 | 200 | Success |" name="And the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 01/11/2017 | 01/12/2017 | IN1 | 200 | Success |" name="| 01/11/2017 | 01/12/2017 | IN1 | 200 | Success |" time="0"/>
+  <testcase classname="| 30/11/2017 | 02/12/2017 | IN1 | 200 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 30/11/2017 | 02/12/2017 | IN1 | 200 | Success |" name="And using the &quot;trades-multiple&quot; trade file" time="0"/>
+  <testcase classname="| 30/11/2017 | 02/12/2017 | IN1 | 200 | Success |" name="When I pass 30/11/2017 and 02/12/2017 as command line arguments" time="0"/>
+  <testcase classname="| 30/11/2017 | 02/12/2017 | IN1 | 200 | Success |" name="Then the traded volume for IN1 is 200" time="0"/>
+  <testcase classname="| 30/11/2017 | 02/12/2017 | IN1 | 200 | Success |" name="And the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 30/11/2017 | 02/12/2017 | IN1 | 200 | Success |" name="| 30/11/2017 | 02/12/2017 | IN1 | 200 | Success |" time="0"/>
+  <testcase classname="| 30/11/2017 | 03/12/2017 | IN1 | 400 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 30/11/2017 | 03/12/2017 | IN1 | 400 | Success |" name="And using the &quot;trades-multiple&quot; trade file" time="0"/>
+  <testcase classname="| 30/11/2017 | 03/12/2017 | IN1 | 400 | Success |" name="When I pass 30/11/2017 and 03/12/2017 as command line arguments" time="0"/>
+  <testcase classname="| 30/11/2017 | 03/12/2017 | IN1 | 400 | Success |" name="Then the traded volume for IN1 is 400" time="0"/>
+  <testcase classname="| 30/11/2017 | 03/12/2017 | IN1 | 400 | Success |" name="And the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 30/11/2017 | 03/12/2017 | IN1 | 400 | Success |" name="| 30/11/2017 | 03/12/2017 | IN1 | 400 | Success |" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/01/2018 | IN1 | 500 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/01/2018 | IN1 | 500 | Success |" name="And using the &quot;trades-multiple&quot; trade file" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/01/2018 | IN1 | 500 | Success |" name="When I pass 30/11/2017 and 31/01/2018 as command line arguments" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/01/2018 | IN1 | 500 | Success |" name="Then the traded volume for IN1 is 500" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/01/2018 | IN1 | 500 | Success |" name="And the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 30/11/2017 | 31/01/2018 | IN1 | 500 | Success |" name="| 30/11/2017 | 31/01/2018 | IN1 | 500 | Success |" time="0"/>
+  <testcase classname="| 01/01/2017 | 02/12/2017 | IN2 | 300 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/01/2017 | 02/12/2017 | IN2 | 300 | Success |" name="And using the &quot;trades-multiple&quot; trade file" time="0"/>
+  <testcase classname="| 01/01/2017 | 02/12/2017 | IN2 | 300 | Success |" name="When I pass 01/01/2017 and 02/12/2017 as command line arguments" time="0"/>
+  <testcase classname="| 01/01/2017 | 02/12/2017 | IN2 | 300 | Success |" name="Then the traded volume for IN2 is 300" time="0"/>
+  <testcase classname="| 01/01/2017 | 02/12/2017 | IN2 | 300 | Success |" name="And the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 01/01/2017 | 02/12/2017 | IN2 | 300 | Success |" name="| 01/01/2017 | 02/12/2017 | IN2 | 300 | Success |" time="0"/>
+  <testcase classname="| 02/12/2017 | 02/12/2017 | IN2 | 200 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 02/12/2017 | 02/12/2017 | IN2 | 200 | Success |" name="And using the &quot;trades-multiple&quot; trade file" time="0"/>
+  <testcase classname="| 02/12/2017 | 02/12/2017 | IN2 | 200 | Success |" name="When I pass 02/12/2017 and 02/12/2017 as command line arguments" time="0"/>
+  <testcase classname="| 02/12/2017 | 02/12/2017 | IN2 | 200 | Success |" name="Then the traded volume for IN2 is 200" time="0"/>
+  <testcase classname="| 02/12/2017 | 02/12/2017 | IN2 | 200 | Success |" name="And the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 02/12/2017 | 02/12/2017 | IN2 | 200 | Success |" name="| 02/12/2017 | 02/12/2017 | IN2 | 200 | Success |" time="0"/>
+  <testcase classname="| 02/12/2017 | 03/12/2017 | IN2 | 300 | Success |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 02/12/2017 | 03/12/2017 | IN2 | 300 | Success |" name="And using the &quot;trades-multiple&quot; trade file" time="0"/>
+  <testcase classname="| 02/12/2017 | 03/12/2017 | IN2 | 300 | Success |" name="When I pass 02/12/2017 and 03/12/2017 as command line arguments" time="0"/>
+  <testcase classname="| 02/12/2017 | 03/12/2017 | IN2 | 300 | Success |" name="Then the traded volume for IN2 is 300" time="0"/>
+  <testcase classname="| 02/12/2017 | 03/12/2017 | IN2 | 300 | Success |" name="And the analyser response is &quot;Success&quot;" time="0"/>
+  <testcase classname="| 02/12/2017 | 03/12/2017 | IN2 | 300 | Success |" name="| 02/12/2017 | 03/12/2017 | IN2 | 300 | Success |" time="0"/>
+  <testcase classname="| 01/10/2017 | 31/10/2017 | 0 | 3 |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/10/2017 | 31/10/2017 | 0 | 3 |" name="And using the &quot;trades-multiple&quot; trade file" time="0"/>
+  <testcase classname="| 01/10/2017 | 31/10/2017 | 0 | 3 |" name="When I pass 01/10/2017 and 31/10/2017 as command line arguments" time="0"/>
+  <testcase classname="| 01/10/2017 | 31/10/2017 | 0 | 3 |" name="Then the list of instruments traded has 0 rows" time="0"/>
+  <testcase classname="| 01/10/2017 | 31/10/2017 | 0 | 3 |" name="And the list of instruments not traded has 3 rows" time="0"/>
+  <testcase classname="| 01/10/2017 | 31/10/2017 | 0 | 3 |" name="| 01/10/2017 | 31/10/2017 | 0 | 3 |" time="0"/>
+  <testcase classname="| 01/11/2017 | 30/11/2017 | 2 | 1 |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/11/2017 | 30/11/2017 | 2 | 1 |" name="And using the &quot;trades-multiple&quot; trade file" time="0"/>
+  <testcase classname="| 01/11/2017 | 30/11/2017 | 2 | 1 |" name="When I pass 01/11/2017 and 30/11/2017 as command line arguments" time="0"/>
+  <testcase classname="| 01/11/2017 | 30/11/2017 | 2 | 1 |" name="Then the list of instruments traded has 2 rows" time="0"/>
+  <testcase classname="| 01/11/2017 | 30/11/2017 | 2 | 1 |" name="And the list of instruments not traded has 1 rows" time="0"/>
+  <testcase classname="| 01/11/2017 | 30/11/2017 | 2 | 1 |" name="| 01/11/2017 | 30/11/2017 | 2 | 1 |" time="0"/>
+  <testcase classname="| 01/12/2017 | 31/12/2017 | 2 | 1 |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/12/2017 | 31/12/2017 | 2 | 1 |" name="And using the &quot;trades-multiple&quot; trade file" time="0"/>
+  <testcase classname="| 01/12/2017 | 31/12/2017 | 2 | 1 |" name="When I pass 01/12/2017 and 31/12/2017 as command line arguments" time="0"/>
+  <testcase classname="| 01/12/2017 | 31/12/2017 | 2 | 1 |" name="Then the list of instruments traded has 2 rows" time="0"/>
+  <testcase classname="| 01/12/2017 | 31/12/2017 | 2 | 1 |" name="And the list of instruments not traded has 1 rows" time="0"/>
+  <testcase classname="| 01/12/2017 | 31/12/2017 | 2 | 1 |" name="| 01/12/2017 | 31/12/2017 | 2 | 1 |" time="0"/>
+  <testcase classname="| 01/01/2018 | 31/01/2018 | 1 | 2 |" name="Given the trade analyser" time="0"/>
+  <testcase classname="| 01/01/2018 | 31/01/2018 | 1 | 2 |" name="And using the &quot;trades-multiple&quot; trade file" time="0"/>
+  <testcase classname="| 01/01/2018 | 31/01/2018 | 1 | 2 |" name="When I pass 01/01/2018 and 31/01/2018 as command line arguments" time="0"/>
+  <testcase classname="| 01/01/2018 | 31/01/2018 | 1 | 2 |" name="Then the list of instruments traded has 1 rows" time="0"/>
+  <testcase classname="| 01/01/2018 | 31/01/2018 | 1 | 2 |" name="And the list of instruments not traded has 2 rows" time="0"/>
+  <testcase classname="| 01/01/2018 | 31/01/2018 | 1 | 2 |" name="| 01/01/2018 | 31/01/2018 | 1 | 2 |" time="0"/>
+</testsuite>

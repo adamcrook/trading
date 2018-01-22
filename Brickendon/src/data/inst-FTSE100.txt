@@ -1,0 +1,101 @@
+instid,instname
+AAL,Shares Anglo American plc
+ABF,Shares Associated British Foods
+ADM,Shares Admiral Group
+AHT,Shares Ashtead Group
+ANTO,Shares Antofagasta
+AV.,Shares Aviva
+AZN,Shares AstraZeneca
+BA.,Shares BAE Systems
+BARC,Shares Barclays
+BATS,Shares British American Tobacco
+BDEV,Shares Barratt Developments
+BKG,Shares Berkeley Group Holdings
+BLND,Shares British Land
+BLT,Shares BHP
+BNZL,Shares Bunzl
+BP.,Shares BP
+BRBY,Shares Burberry
+BT.A,Shares BT Group
+CCH,Shares Coca-Cola HBC AG
+CCL,Shares Carnival Corporation & plc
+CNA,Shares Centrica
+CPG,Shares Compass Group
+CRDA,Shares Croda International
+CRH,Shares CRH plc
+DCC,Shares DCC plc
+DGE,Shares Diageo
+DLG,Shares Direct Line Group
+EVR,Shares Evraz
+EXPN,Shares Experian
+EZJ,Shares easyJet
+FERG,Shares Ferguson plc
+FRES,Shares Fresnillo plc
+GFS,Shares G4S
+GKN,Shares GKN
+GLEN,Shares Glencore
+GSK,Shares GlaxoSmithKline
+HL.,Shares Hargreaves Lansdown
+HLMA,Shares Halma
+HMSO,Shares Hammerson
+HSBA,Shares HSBC
+IAG,Shares International Airlines Group
+IHG,Shares InterContinental Hotels Group
+III,Shares 3i
+IMB,Shares Imperial Brands
+INF,Shares Informa
+ITRK,Shares Intertek
+ITV,Shares ITV plc
+JE,Shares Just Eat
+JMAT,Shares Johnson Matthey
+KGF,Shares Kingfisher plc
+LAND,Shares Land Securities
+LGEN,Shares Legal & General
+LLOY,Shares Lloyds Banking Group
+LSE,Shares London Stock Exchange Group
+MCRO,Shares Micro Focus
+MDC,Shares Mediclinic International
+MKS,Shares Marks & Spencer
+MNDI,Shares Mondi
+MRW,Shares Morrisons
+NG.,Shares National Grid plc
+NMC,Shares NMC Health
+NXT,Shares Next plc
+OML,Shares Old Mutual
+PPB,Shares Paddy Power Betfair
+PRU,Shares Prudential plc
+PSN,Shares Persimmon plc
+PSON,Shares Pearson PLC
+RB.,Shares Reckitt Benckiser
+RBS,Shares The Royal Bank of Scotland Group
+RDSA,Shares Royal Dutch Shell
+REL,Shares RELX Group
+RIO,Shares Rio Tinto Group
+RR.,Shares Rolls-Royce Holdings
+RRS,Shares Randgold Resources
+RSA,Shares RSA Insurance Group
+RTO,Shares Rentokil Initial
+SBRY,Shares Sainsbury's
+SDR,Shares Schroders
+SGE,Shares Sage Group
+SGRO,Shares Segro
+SHP,Shares Shire plc
+SKG,Shares Smurfit Kappa
+SKY,Shares Sky plc
+SLA,Shares Standard Life Aberdeen
+SMDS,Shares Smith, D.S.
+SMIN,Shares Smiths Group
+SMT,Shares Scottish Mortgage Investment 
+SN.,Shares Smith & Nephew
+SSE,Shares SSE plc
+STAN,Shares Standard Chartered
+STJ,Shares St. James's Place plc
+SVT,Shares Severn Trent
+TSCO,Shares Tesco
+TUI,Shares TUI Group
+TW.,Shares Taylor Wimpey
+ULVR,Shares Unilever
+UU.,Shares United Utilities
+VOD,Shares Vodafone Group
+WPP,Shares WPP plc
+WTB,Shares Whitbread
